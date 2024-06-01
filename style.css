@@ -1,0 +1,92 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #b32f3e;
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+
+.player_box{
+    width: 50vw;
+    height: 80vh;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.player_score{
+    font-size: 80px;
+    color: #c7365f;
+}
+
+.player_name{
+font-size: 40px;
+}
+
+.player_one{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    height: 80vh;
+    background-color: #dbaebb;
+}
+
+.player_two{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    height: 80vh;
+    background-color: #bb7a96;
+
+}
+
+.current_box{
+    width: 170px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #c7365f;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.setting{
+    width: 50vw;
+    height: 80vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.new_game{
+    display: flex;
+    background-color: white;
+    opacity: 0.8;
+    justify-content: center;
+}
+
+.roll_dice{
+    display: flex;
+    background-color: white;
+    opacity: 0.8;
+    justify-content: center;
+}
+
+.hold{
+    display: flex;
+    background-color: white;
+    opacity: 0.8;
+    justify-content: center;
+}
